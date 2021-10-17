@@ -109,6 +109,22 @@ ostream& operator <<(ostream& console_out, const Team& T)
     return console_out;
 }
 
+float Team::get_team_score()
+{
+    float total = 0.0;
+    for(int i = 0; i < number_of_members; i++)
+    {
+        total = total + teammates[i].get_score(); 
+    }
+    return total/(float)number_of_members;
+
+}
+
+string Team::get_team_name()
+{
+    return team_name;
+}
+
 Team::~Team()
 {
     if (teammates != NULL)
