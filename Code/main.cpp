@@ -1,6 +1,9 @@
 #include "team.h"
+#include "round.h"
 #include <list>
 #include <iterator>
+#include <queue>
+
 
 int number_of_needed_teams(int number_teams)
 {
@@ -41,10 +44,6 @@ int main()
     //cout<<number_of_teams<<endl;
 
     //file_in>>number_of_members;
-    if (teams != NULL)
-    {
-        delete [] teams;
-    }
     teams = new Team[number_of_teams];
 
     for(int i = 0; i < number_of_teams; i++)
@@ -74,6 +73,23 @@ int main()
         cout<<it->get_team_name()<<endl;
     }
     
+    cout<<endl;
+
+    Round r;
+    Team t1, t2;
+
+    for(auto it = list_of_teams.begin(); it != list_of_teams.end(); it++)
+    {
+        t1 = *it;
+        it++;
+        t2 = *it;
+        r.set_round(t1,t2);
+
+        cout<<r;
+    }
+
+    
+
     /*teams = new Team[number_of_teams];
 
     for(int i = 0; i < number_of_teams; i++)

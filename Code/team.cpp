@@ -132,3 +132,11 @@ Team::~Team()
         delete[] teammates;
     }
 }
+
+void Team::modify_team_score()
+{
+    for(int i = 0; i < number_of_members; i++)
+    {
+        teammates[i].modify_score();
+    }
+}

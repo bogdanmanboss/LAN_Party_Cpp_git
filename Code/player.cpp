@@ -28,3 +28,8 @@ ofstream& operator << (ofstream& file_out, const Player& P)
     file_out<<P.firstName<<" "<<P.secondName<<" "<<P.score<<endl;
     return file_out;
 }
+
+void Player::modify_score()
+{
+    score = score + 1;
+}

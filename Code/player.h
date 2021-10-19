@@ -12,6 +12,7 @@ class Player
 
     public:
         int get_score();
+        void modify_score();
 
         friend ifstream& operator >> (ifstream&, Player& );
         friend ostream& operator << (ostream&, const Player&);
