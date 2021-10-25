@@ -1,0 +1,85 @@
+TOUCANS 5.7
+TERMINATORS 7.3
+TEAL TITANS 6.8
+SWEETHEARTS 5.9
+SUGER BEES 5.8
+STINGRAYS 6.1
+STAR SHOOTERS 5
+SPEEDY TURTLES 6.9
+SPACE BABES 5.7
+SILVER BUTTERFLIES 6
+SCORPIONS 5.8
+MIND TRIP 5.9
+MIDNIGHT RAIDERS 4.7
+MEAN GREEN ALIENS 5.6
+MANARCHS 5.1
+FUGITIVES 6
+FLAMING TIGERS 5.2
+FIRE STRIKERS 5.1
+FIGHTING IRISH  6.8
+AVALANCHE 5.6
+ANTEATERS 5.1
+AMERICAN BABES 6.4
+0% ANGELS  6.4
+Winner 7.2
+Elixir Junior 5.5
+Legalize 5.1
+Savage 4.7
+The Skyrynners 5.4
+Shooting Stars 5.8
+The Abusement Park 7.3
+Chafing the Dream 5.6
+The Big Egos 5.5
+
+TOUCANS                          -                      TERMINATORS
+TEAL TITANS                      -                      SWEETHEARTS
+SUGER BEES                       -                        STINGRAYS
+STAR SHOOTERS                    -                   SPEEDY TURTLES
+SPACE BABES                      -               SILVER BUTTERFLIES
+SCORPIONS                        -                        MIND TRIP
+MIDNIGHT RAIDERS                 -                MEAN GREEN ALIENS
+MANARCHS                         -                        FUGITIVES
+FLAMING TIGERS                   -                    FIRE STRIKERS
+FIGHTING IRISH                   -                        AVALANCHE
+ANTEATERS                        -                   AMERICAN BABES
+0% ANGELS                        -                           Winner
+Elixir Junior                    -                         Legalize
+Savage                           -                   The Skyrynners
+Shooting Stars                   -               The Abusement Park
+Chafing the Dream                -                     The Big Egos
+
+WINNERS OF ROUND 1:
+Chafing the Dream 6.6
+The Abusement Park 8.3
+The Skyrynners 6.4
+Elixir Junior 6.5
+Winner 8.2
+AMERICAN BABES 7.4
+FIGHTING IRISH  7.8
+FLAMING TIGERS 6.2
+FUGITIVES 7
+MEAN GREEN ALIENS 6.6
+MIND TRIP 6.9
+SILVER BUTTERFLIES 7
+SPEEDY TURTLES 7.9
+STINGRAYS 7.1
+TEAL TITANS 7.8
+TERMINATORS 8.3
+
+LOSERS OF ROUND 1:
+The Big Egos 5.5
+Shooting Stars 5.8
+Savage 4.7
+Legalize 5.1
+0% ANGELS  6.4
+ANTEATERS 5.1
+AVALANCHE 5.6
+FIRE STRIKERS 5.1
+MANARCHS 5.1
+MIDNIGHT RAIDERS 4.7
+SCORPIONS 5.8
+SPACE BABES 5.7
+STAR SHOOTERS 5
+SUGER BEES 5.8
+SWEETHEARTS 5.9
+TOUCANS 5.7
