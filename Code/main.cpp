@@ -3,6 +3,7 @@
 #include <list>
 #include <iterator>
 #include <queue>
+#include <stack>
 
 
 int number_of_needed_teams(int number_teams)
@@ -70,14 +71,17 @@ int main()
     //float score;
     for(auto it = list_of_teams.begin(); it != list_of_teams.end(); it++)
     {
-        cout<<it->get_team_name()<<endl;
+        cout<<it->get_team_name()<<" "<<it->get_team_score()<<endl;
     }
     
     cout<<endl;
 
     Round r;
     Team t1, t2;
+    queue <Round> round_queue;
+    stack <Team> winners_stack, losers_stack;
 
+    
     for(auto it = list_of_teams.begin(); it != list_of_teams.end(); it++)
     {
         t1 = *it;
@@ -85,10 +89,57 @@ int main()
         t2 = *it;
         r.set_round(t1,t2);
 
-        cout<<r;
+
+        //cout<<r;
+        round_queue.push(r);
+
     }
 
+   // while(number_of_teams!=1)
+   // {
+        while (!round_queue.empty())
+        {
+            r = round_queue.front();
+            cout<<r;
+            t1 = r.get_win_team();
+            t2 = r.get_lose_team();
+
+            winners_stack.push(t1);
+            losers_stack.push(t2);
+
+            round_queue.pop();
+        }
+        
+  //  }
+
+
+
+    //cout<<winners_queue.empty()<<endl;
+    cout<<endl<<"WINNERS OF ROUND 1:"<<endl;
+    while (!winners_stack.empty())
+    {
+        t1 = winners_stack.top();
+        cout<<t1.get_team_name()<<" "<<t1.get_team_score()<<endl;
+        winners_stack.pop();
+    }
+
+    cout<<endl<<"LOSERS OF ROUND 1:"<<endl;
+    while (!losers_stack.empty())
+    {
+        t1 = losers_stack.top();
+        cout<<t1.get_team_name()<<" "<<t1.get_team_score()<<endl;
+        losers_stack.pop();
+    }
+
+    //number_of_teams = number_of_teams/2;
+
+    //while
+
+    //cout<<winners_queue.empty()<<endl;
     
+
+
+
 
     /*teams = new Team[number_of_teams];
 

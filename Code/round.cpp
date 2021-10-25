@@ -7,14 +7,22 @@ Team Round::get_win_team()
         t1.modify_team_score();
         return t1;
     }
+    else
+    {
+        t2.modify_team_score();
+        return t2;
+    }
 }
 
 Team Round::get_lose_team()
 {
-    if(t2.get_team_score() > t1.get_team_score())
+    if(t2.get_team_score() < t1.get_team_score())
     {
-        t2.modify_team_score();
         return t2;
+    }
+    else
+    {
+        return t1;
     }
 }
 
