@@ -11,7 +11,7 @@ Team::Team(int number_of_members, string team_name, Player* teammates)
 {
     this->number_of_members = number_of_members;
     this->team_name = team_name;
-    if (number_of_members>0 && teammates != NULL)
+    if (number_of_members>0 && teammates != NULL) //makes sure to avoid segmentation fault by verifying the existence of the teammates poniter
     {
         this->teammates = new Player[number_of_members];
         for(int i = 0; i < number_of_members;i++)
@@ -29,7 +29,7 @@ Team::Team(const Team& T)
 {
     number_of_members = T.number_of_members;
     team_name = T.team_name;
-    if(T.number_of_members > 0 && T.teammates != NULL)
+    if(T.number_of_members > 0 && T.teammates != NULL)//makes sure to avoid segmentation fault by verifying the existence of the teammates poniter
     {
         teammates = new Player[T.number_of_members];
         for(int i = 0; i < T.number_of_members; i++)
@@ -47,7 +47,7 @@ Team& Team::operator=(const Team& T)
 {
     number_of_members = T.number_of_members;
     team_name = T.team_name;
-    if(T.number_of_members > 0 && T.teammates != NULL)
+    if(T.number_of_members > 0 && T.teammates != NULL)//makes sure to avoid segmentation fault by verifying the existence of the teammates poniter
     {
         teammates = new Player[T.number_of_members];
         for(int i = 0; i < T.number_of_members; i++)
@@ -69,7 +69,7 @@ ifstream& operator >>(ifstream& file_in, Team& T)
     file_in>>T.number_of_members;
     getline(file_in, T.team_name);
     T.team_name.erase(0,1);
-    if(T.teammates != NULL)
+    if(T.teammates != NULL)//makes sure to avoid segmentation fault by verifying the existence of the teammates poniter
     {
         delete [] T.teammates;
     }
