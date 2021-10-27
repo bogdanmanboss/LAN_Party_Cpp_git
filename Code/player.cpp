@@ -1,5 +1,6 @@
 #include "player.h"
-
+//nothing special here
+//basic things
 int Player::get_score()
 {
     return score;
