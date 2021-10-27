@@ -11,12 +11,13 @@ class Player
         int score;
 
     public:
-        int get_score();
-        void modify_score();
+        int get_score(); //returns the score
+        void modify_score(); //updates the score by increasing it by 1 
 
-        friend ifstream& operator >> (ifstream&, Player& );
-        friend ostream& operator << (ostream&, const Player&);
-        friend ofstream& operator << (ofstream&, const Player&);
+        friend ifstream& operator >> (ifstream&, Player& ); //redefine this operator to make my life easier
+                                                            //didn't implemet because it is almost the same as the next
+        friend ostream& operator << (ostream&, const Player&);//redefine this operator to make my life easier
+        friend ofstream& operator << (ofstream&, const Player&);//redefine this operator to make my life easier
 
 
     
