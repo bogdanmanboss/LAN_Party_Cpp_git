@@ -31,6 +31,7 @@ The Abusement Park 7.3
 Chafing the Dream 5.6
 The Big Egos 5.5
 
+---ROUND 1---
 TOUCANS                          -                      TERMINATORS
 TEAL TITANS                      -                      SWEETHEARTS
 SUGER BEES                       -                        STINGRAYS
@@ -83,3 +84,68 @@ STAR SHOOTERS 5
 SUGER BEES 5.8
 SWEETHEARTS 5.9
 TOUCANS 5.7
+---ROUND 2---
+Chafing the Dream                -               The Abusement Park
+The Skyrynners                   -                    Elixir Junior
+Winner                           -                   AMERICAN BABES
+FIGHTING IRISH                   -                   FLAMING TIGERS
+FUGITIVES                        -                MEAN GREEN ALIENS
+MIND TRIP                        -               SILVER BUTTERFLIES
+SPEEDY TURTLES                   -                        STINGRAYS
+TEAL TITANS                      -                      TERMINATORS
+
+WINNERS OF ROUND 2:
+TERMINATORS 9.3
+SPEEDY TURTLES 8.9
+SILVER BUTTERFLIES 8
+FUGITIVES 8
+FIGHTING IRISH  8.8
+Winner 9.2
+Elixir Junior 7.5
+The Abusement Park 9.3
+
+LOSERS OF ROUND 2:
+TEAL TITANS 7.8
+STINGRAYS 7.1
+MIND TRIP 6.9
+MEAN GREEN ALIENS 6.6
+FLAMING TIGERS 6.2
+AMERICAN BABES 7.4
+The Skyrynners 6.4
+Chafing the Dream 6.6
+---ROUND 3---
+TERMINATORS                      -                   SPEEDY TURTLES
+SILVER BUTTERFLIES               -                        FUGITIVES
+FIGHTING IRISH                   -                           Winner
+Elixir Junior                    -               The Abusement Park
+
+WINNERS OF ROUND 3:
+The Abusement Park 10.3
+Winner 10.2
+SILVER BUTTERFLIES 9
+TERMINATORS 10.3
+
+LOSERS OF ROUND 3:
+Elixir Junior 7.5
+FIGHTING IRISH  8.8
+FUGITIVES 8
+SPEEDY TURTLES 8.9
+---ROUND 4---
+The Abusement Park               -                           Winner
+SILVER BUTTERFLIES               -                      TERMINATORS
+
+WINNERS OF ROUND 4:
+TERMINATORS 11.3
+The Abusement Park 11.3
+
+LOSERS OF ROUND 4:
+SILVER BUTTERFLIES 9
+Winner 10.2
+---ROUND 5---
+TERMINATORS                      -               The Abusement Park
+
+WINNERS OF ROUND 5:
+TERMINATORS 12.3
+
+LOSERS OF ROUND 5:
+The Abusement Park 11.3
