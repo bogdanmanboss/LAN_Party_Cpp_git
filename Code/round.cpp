@@ -34,6 +34,7 @@ void Round::set_round(const Team& t1, const Team& t2)
 
 ostream& operator << (ostream& console_out, Round &r)
 {
+    //i try to format the output to look easy to read
     console_out<<r.t1.get_team_name();
     for(int i = 0; i < 33 - r.t1.get_team_name().length(); i++)
     {
